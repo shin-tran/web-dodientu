@@ -1,0 +1,40 @@
+/* Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --primary-color: #0066cc;
+  --secondary-color: #ff6600;
+  --dark-color: #333333;
+  --light-color: #f8f9fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: contain;
+}
+
+.hero-gradient {
+  background: linear-gradient(90deg, rgba(0, 102, 204, 0.8) 0%, rgba(0, 102, 204, 0.6) 100%);
+}
+
+.category-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
